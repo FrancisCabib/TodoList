@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <title>Lista de Tareas</title>
+</head>
+<body>
+    <div class="contenedor">
+        <h1>Lista de Tareas</h1>
+        <div class="entradaTarea">
+            <input type="text" id="inputTarea" placeholder="Escribe una nueva tarea">
+            <button id="btnAgregar">Agregar</button>
+        </div>
+        <div class="resumenTareas">
+            <div>Total de tareas: <span id="totalTareas">0</span></div>
+            <div>Tareas completadas: <span id="tareasCompletadas">0</span></div>
+        </div>
+        <div class="zonaTareas">
+            <div class="encabezados">
+                <span>ID</span>
+                <span>Tarea</span>
+            </div>
+            <!-- Las tareas se agregarán aquí -->
+        </div>
+    </div>
+    <script src="./assets/js/main.js"></script>
+</body>
+</html>

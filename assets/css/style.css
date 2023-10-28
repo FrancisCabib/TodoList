@@ -1,0 +1,98 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, sans-serif;
+    background-color: rgb(239, 239, 243);
+}
+
+.contenedor {
+    width: 55%;
+    border: 2px solid black;
+    padding: 15px;
+    background-color: white;
+}
+
+.contenedor h1 {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.entradaTarea {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.entradaTarea input {
+    width: 80%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.entradaTarea button {
+    width: 18%;
+    background-color: rgba(8, 114, 22, 0.781);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 10px;
+}
+
+.zonaTareas {
+    border-top: 1px solid grey;
+    border-bottom: 1px solid grey;
+    padding: 10px 0;
+}
+
+.encabezados {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 10px;
+    font-weight: bold;
+}
+
+.resumenTareas {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    padding: 0 10px;
+}
+
+.resumenTareas span {
+    font-size: 16px;
+}
+
+.tarea {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    border-bottom: 1px solid #eee;
+}
+
+.tarea:last-child {
+    border-bottom: none;
+}
+
+.tarea input[type="checkbox"] {
+    margin-right: 10px;
+}
+
+.tarea button {
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 5px 10px;
+}
