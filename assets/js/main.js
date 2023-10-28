@@ -4,7 +4,6 @@ let tareas = [
     { actividad: "Tomar una cerveza", id: "3", estado: false }
 ];
 
-// Referencias a elementos del DOM
 const btnAgregar = document.querySelector("#btnAgregar");
 const inputTarea = document.querySelector("#inputTarea");
 const zonaTareas = document.querySelector(".zonaTareas");
